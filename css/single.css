@@ -1,0 +1,31 @@
+.header--single {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/science.jpg");
+    background-position: center;
+}
+img {
+    width: 100%;
+}
+.hero__title--small {
+    font-size: 2rem;
+}
+.hero__text--small {
+    font-size: 1.4rem;
+}
+.hero__footer {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+.single__title {
+    margin-top: 3rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.single__img-caption {
+    font-style: italic;
+}
+.single__buttons-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}

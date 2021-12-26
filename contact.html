@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Ejercicio Clean blog</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <meta name="author" content="Nuria">
+    <meta name="keywords" content="blog, portfolio, html, css">
+    <meta name="description" content="Ejemplo de blog moderno.">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- Mis archivos CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+</head>
+<body>
+    <header class="header header--contact">
+        <div class="container">
+            <nav class="header__nav">
+                <div class="header__logo">
+                    <a href="index.html" class="header__logo-link">
+                        Clean Blog
+                    </a>
+                </div>
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="index.html" class="header__nav-link">Home</a></li>
+                    <li class="header__nav-item"><a href="posts.html" class="header__nav-link">Posts</a></li>
+                    <li class="header__nav-item"><a href="about.html" class="header__nav-link">About</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link header__nav--active">Contact</a></li>
+                </ul>
+            </nav>
+            <section class="hero">
+                <h1 class="hero__title">Contacta conmigo</h1>
+                <p class="hero__text">No muerdo</p>
+            </section>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="contact">
+                <p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eum excepturi ipsam nisi repellendus,
+                    voluptate voluptatem. Aspernatur assumenda at cupiditate delectus deserunt, ea eius eum eveniet excepturi
+                    fuga fugiat, impedit in inventore ipsum minima nam nisi non porro possimus quasi qui quia quo ratione rem
+                    reprehenderit similique soluta tempora unde velit veniam? Blanditiis dolores earum eius est minima molestiae
+                    nam natus nemo, neque nesciunt odio placeat qui quibusdam quidem quod sequi sit. Ab asperiores autem,
+                    consectetur dignissimos dolore ducimus et excepturi expedita facere illo ipsa iste iure modi neque nihil
+                    nulla officiis quae quos recusandae rem suscipit tenetur totam voluptas?</p>
+                <form class="contact__form">
+                    <p>
+                        <label class="contact__label">
+                            Nombre
+                            <input required class="contact__input" type="text" name="nombre">
+                        </label>
+                    </p>
+                    <p>
+                        <label class="contact__label">
+                            Email
+                            <input required class="contact__input" type="email" name="email">
+                        </label>
+                    </p>
+                    <p>
+                        <label class="contact__label">
+                            Teléfono
+                            <input required class="contact__input" type="tel" name="telefono">
+                        </label>
+                    </p>
+                    <p>
+                        <label class="contact__label">
+                            Mensaje
+                            <textarea required class="contact__input contact__input--textarea" name="mensaje"></textarea>
+                        </label>
+                    </p>
+                    <p>
+                        <label class="contact__label">
+                            <input required class="contact__input contact__input--checkbox" type="checkbox" name="acepto">
+                            Aceptas los términos y condiciones
+                        </label>
+                    </p>
+                    <p class="contact__paragraph">
+                        <input type="submit" class="button" value="Enviar">
+                    </p>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="footer__nav-ul">
+                <li class="footer__nav-li">
+                    <a href="#" class="footer__nav-link">
+                        <img src="img/icon/facebook.png" alt="Instagram" class="footer__nav-img">
+                    </a>
+                </li>
+                <li class="footer__nav-li">
+                    <a href="#" class="footer__nav-link">
+                        <img src="img/icon/instagram.png" alt="Tik tok" class="footer__nav-img">
+                    </a>
+                </li>
+                <li class="footer__nav-li">
+                    <a href="#" class="footer__nav-link">
+                        <img src="img/icon/whatsapp.png" alt="Twitter" class="footer__nav-img">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <p class="footer__copyright">2021 &copy; Mi plantilla</p>
+    </footer>
+</body>
+</html>
+
+
