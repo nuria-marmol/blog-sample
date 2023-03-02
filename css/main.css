@@ -56,6 +56,22 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width: 480px) {
+    .header__nav {
+        display: block;
+    }
+
+    .header__nav-list {
+        justify-content: center;
+    }
+
+    .header__logo {
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+}
+
 .header__logo-link {
     font-weight: bold;
     font-size: 1.6rem;
